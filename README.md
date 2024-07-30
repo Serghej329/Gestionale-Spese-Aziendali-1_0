@@ -140,8 +140,20 @@ static void DisegnaGraficoBarre(string titolo, Dictionary<string, decimal> dati)
 - [ ] **Backup e Ripristino:**
   - Aggiungere funzionalità per il backup e il ripristino dei dati in caso di errori o perdite di dati.
 
+- [ ] **Rimuovere Ridondanze:**
+  - Trovare e rimuovere eventualemente ove possibile tutte le ridonzanze del codice per accorciarlo.
 
+- [ ] **Gestione degli Errori:**
+  - Implementa una gestione degli errori robusta per evitare che l'applicazione si blocchi in caso di errori imprevisti.
 
+- [ ] **Aggiunta Quantità:**
+  - Implementa una gestione delle quantità dei prodotti disponibili.
+
+- [ ] **Aggiunta Cliente e ordini:**
+  - Implementa una gestione della ventita di uno o piu prodotti ad un cliente con le specifiche del nome categoria data e data ordine per poterlo implementare nel KPI.
+
+- [ ] **Aggiunta Quantità:**
+  - Implementa un'analisi del KPI per visualizare le vendite e le possibilità di crescità.
 
 ## Architettura del Progetto
 

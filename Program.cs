@@ -39,7 +39,7 @@ class Program
                         new SelectionPrompt<string>()
                             .Title("Scegli un report:")
                             .AddChoices("Vendite Mensili", "Vendite per Prodotto",
-                                        "Fasce di Prezzo", "Giorni della Settimana", "Torna al Menù Principale"));
+                                        "Fasce di Prezzo", "Giorni della Settimana", "KPI", "Torna al Menù Principale"));
 
                     switch (reportMenu)
                     {
@@ -57,6 +57,9 @@ class Program
 
                         case "Giorni della Settimana":
                             ReportVenditeGiorni(Prodotti);
+                            break;
+                        case "KPI":
+                            /*ReportKPI(Prodotti);*/
                             break;
                     }
                     break;
@@ -473,7 +476,6 @@ class Program
         }
         AnsiConsole.MarkupLine($"[green]File CSV esportato con successo in {filePath}![/]");
     }
-
     static void EsportaCsvCat(List<dynamic> Prodotti, string categoriaSelezionata)
     {
         // Filtra i prodotti per la categoria selezionata
@@ -512,7 +514,6 @@ class Program
 
         AnsiConsole.MarkupLine("[green]Esportazione completata con successo![/]");
     }
-
     static void VisualizzaCat(List<dynamic> Prodotti, List<string> Categorie)
     {
         if (Categorie.Count == 0)
@@ -553,8 +554,6 @@ class Program
             }
         }
     }
-
-
     static void DisegnaGraficoBarre(string titolo, Dictionary<string, decimal> dati)
     {
         var tabella = new Table();
@@ -796,6 +795,7 @@ class Program
             VisualizzaProdottiInTabella(risultatiRicerca);
         }
     }
+
 
 
     // Funzioni di confronto per l'ordinamento
