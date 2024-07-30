@@ -1,0 +1,30 @@
+[
+  {
+    "Data": "2024-07-25T15:30:25.5299456+02:00",
+    "Importo": 2.5,
+    "Prodotto": "MAEH",
+    "Categoria": "CESTELLI",
+    "Descrizione": "AWWERW"
+  },
+  {
+    "Data": "2024-07-26T11:06:58.6922582+02:00",
+    "Importo": 35.0,
+    "Prodotto": "carote",
+    "Categoria": "varie",
+    "Descrizione": "awer"
+  },
+  {
+    "Data": "2024-07-26T11:07:19.94522+02:00",
+    "Importo": 50.0,
+    "Prodotto": "cavalli",
+    "Categoria": "varie",
+    "Descrizione": "acwertyga"
+  },
+  {
+    "Data": "2024-07-26T11:07:32.8412886+02:00",
+    "Importo": 23.0,
+    "Prodotto": "mangime",
+    "Categoria": "varie",
+    "Descrizione": "awetghs"
+  }
+]
