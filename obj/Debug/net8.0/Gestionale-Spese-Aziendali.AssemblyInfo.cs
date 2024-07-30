@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestionale-Spese-Aziendali")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f9dfafe585601abf39676cad64399f863d3f2d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+124c572f89b78371e9e8fb0383f447ca3f263433")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestionale-Spese-Aziendali")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestionale-Spese-Aziendali")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
